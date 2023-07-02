@@ -1,0 +1,147 @@
+/* styles.css */
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Header */
+  header {
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .nav-links li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .hero {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .hero h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 30px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Features */
+  #features {
+    background-color: #fff;
+    padding: 50px 0;
+  }
+  
+  .feature-card {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .feature-card img {
+    width: 120px;
+    margin-bottom: 10px;
+  }
+  
+  .feature-card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .feature-card p {
+    color: #666;
+  }
+  
+  /* Benefits */
+  #benefits {
+    background-color: #f2f2f2;
+    padding: 50px 0;
+  }
+  
+  .benefit-card {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .benefit-card img {
+    width: 120px;
+    margin-bottom: 10px;
+  }
+  
+  .benefit-card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .benefit-card p {
+    color: #666;
+  }
+  
+  /* Contact */
+  #contact {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  #contact h2 {
+    margin-bottom: 10px;
+  }
+  
+  #contact p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+  }
+  
+img{
+    width: 700px;
+    height: 100px;
+}  

@@ -1,0 +1,25 @@
+<div class="container">
+ <input type="text" [(ngModel)]="searchTerm" placeholder="Search by rating" />
+    <h2>jobs</h2>
+   
+    <ng-container *ngFor="let course of courses">
+        <div class="course-container" *ngIf="!searchTerm || course.rating == +searchTerm">
+            <div class="course-card">
+                <div>
+                    <img [src]="course.image" style="width:220px; height:140px;">
+                </div>
+                <div class="course-name"><h4>{{ course.name}}</h4></div>
+                <div class="course-description"><p>{{course.description.slice(0, 80)}}...</p></div>
+                <div class="details">
+                    <div class="course-type" [ngStyle]="{color: course.type === 'stipend' ? 'Green' : 'Red'}">{{course.type}}</div>
+                    <div class="course-price"><b>salary:</b> ${{course.salary}}</div>
+                </div>
+                <div class="course-buttons">
+                  <button class="btn btn-show"><b>rating:</b> {{course.rating}}</button>
+                    <button class="btn btn-show" routerLink="/Course/{{course.id}}">Show Deatils</button>
+                </div>
+            </div>
+        </div>  
+    </ng-container>
+</div>
+

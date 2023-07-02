@@ -1,0 +1,27 @@
+<div class="container">
+  <div style="text-align:center">
+    <h2>Log in</h2>
+    <p>Your journey begins here. Please log in to unlock endless possibilities</p>
+  </div>
+  <div class="row">
+    <div class="column">
+      <form action="/action_page.php">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+         <label for="lname">Gmail</label>
+        <input type="text" id="lname" name="gmail" placeholder="enter your gmail account">
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+        </select>
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+        <input type="submit" value="sign up" (click)="ProcessForm()">
+      </form>
+    </div>
+  </div>
+</div>
